@@ -15,36 +15,41 @@
     display: block;
 }
 .btn {
-    border: none;
     color: white;
     margin-right: 20px;
-    font-weight: 200;
+    font-weight: 500;
     font-size: 25px;
     border-radius: 5px;
     width: 140px;
     height: 50px;
 }
 .btn:first-child {
-    background-color: #6fdc6f;
-} .btn:first-child:hover {
     background-color: #EDEDED;
     color: #6fdc6f;
     border: 1px solid #6fdc6f;
+} .btn:first-child:hover {
+    background-color: #6fdc6f;
+    color: #EDEDED;
+    border: none;
 }
 .btn:nth-child(2) {
-    background-color: #ffbf80;
-} .btn:nth-child(2):hover {
     background-color: #EDEDED;
     color: #ffbf80;
     border: 1px solid #ffbf80;
+} .btn:nth-child(2):hover {
+    background-color: #ffbf80;
+    color: #EDEDED;
+    border: none;
 }
 .btn:last-child {
-    background-color:  #ff8080;
-    margin-right: 0;
-} .btn:last-child:hover {
     background-color: #EDEDED;
     color: #ff8080;
     border: 1px solid #ff8080;
+    margin-right: 0;
+} .btn:last-child:hover {
+    background-color: #ff8080;
+    color: #EDEDED;
+    border: none;
 }
 .feedbackList {
     padding-left: 167px;
