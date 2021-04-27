@@ -1,0 +1,24 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EDEDED;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    margin: 0;
+    color: #616161;
+    font-weight: 300;
+    font-size: 35px;
+}
+p {
+    color: #999999;
+    font-weight: 300;
+    font-size: 20px;
+}
+ul {
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}

@@ -1,0 +1,75 @@
+.cont {
+    padding: 50px;
+    width: 800px;
+}
+.sectionTitle {
+    text-align: center;
+}
+.btnCont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+.statCont {
+    display: block;
+}
+.btn {
+    border: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: 200;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 140px;
+    height: 50px;
+}
+.btn:first-child {
+    background-color: #6fdc6f;
+} .btn:first-child:hover {
+    background-color: #EDEDED;
+    color: #6fdc6f;
+    border: 1px solid #6fdc6f;
+}
+.btn:nth-child(2) {
+    background-color: #ffbf80;
+} .btn:nth-child(2):hover {
+    background-color: #EDEDED;
+    color: #ffbf80;
+    border: 1px solid #ffbf80;
+}
+.btn:last-child {
+    background-color:  #ff8080;
+    margin-right: 0;
+} .btn:last-child:hover {
+    background-color: #EDEDED;
+    color: #ff8080;
+    border: 1px solid #ff8080;
+}
+.feedbackList {
+    padding-left: 167px;
+}
+.number {
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.feedback:first-child .number {
+    color: #6fdc6f
+}
+.feedback:nth-child(2) .number {
+    color: #ffbf80;
+}
+.feedback:nth-child(3) .number {
+    color: #ff8080;
+}
+.feedback:nth-child(3) {
+    margin-bottom: 50px;
+}
+.feedback:nth-last-child(-n+2) .number {
+    color: #66a3ff;
+}
+.feedback:nth-child(4)::before {
+    content: "______________________________";
+    color: #999999;
+}
