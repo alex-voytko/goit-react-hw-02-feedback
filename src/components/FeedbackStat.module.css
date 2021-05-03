@@ -78,3 +78,6 @@
     content: "______________________________";
     color: #999999;
 }
+.notificationText {
+    text-align: center;
+}
